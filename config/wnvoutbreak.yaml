@@ -1,5 +1,5 @@
-remote_url: "https://docs.google.com/spreadsheets/d/1EsnNwKH1wN6IWP---d7j3__lHO1RDGS7Dy9arGacANk/edit?resourcekey=&gid=1888905696#gid=1888905696"
+remote_url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSKGIZ6wlRWuZ4A2xKa5bfFuHER8k9HlkzjVDRipXTNEHTbmnme0V0CY0eeCowrg6mkzbQKn6q7MSIU/pub?output=csv"
 proj_dir: "C:/Users/rburn/Documents/APPS305/WestNileOutbreak/"
 data_format: "csv"
-geocoder_prefix_url: "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address="
-geocoder_suffix_url: "&benchmark=2020&format=json"
+geocoder_prefix_url: ""
+geocoder_suffix_url: ""

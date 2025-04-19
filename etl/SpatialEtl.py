@@ -1,17 +1,13 @@
 class SpatialEtl:
-    def __init__(self, config):
-        self.config = config
-        self.remote = config.get("remote_url")
-        self.local_dir = config.get("proj_dir") + "data"
-        self.data_format = config.get("data_format")
-        self.destination = config.get("proj_dir") + "output"
+    def __init__(self, confif_dict):
+        self.config_dict=confif_dict
 
 
     def extract(self):
-        print('Extracting data from {self.remote} to {self.local_dir}')
+        print(f"Extracting data from {self.config_dict.get('remote_url')} to {self.config_dict.get('proj_dir')}")
 
     def transform(self):
-        print('Transforming {self.data_format}')
+        print("Running base transform...")
 
     def load(self):
-        print('Loading data into {self.destination}')
+        print("Running base load...")
